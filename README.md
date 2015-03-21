@@ -8,7 +8,7 @@ Video-Hotspot is a responsive php script that adds Video functionality to any pr
 Users are forced to watch a video, which is selected randomly from a list of videos. This can be used for advertisements.
 This hotspot solution is implemented using wifiDog on open-wrt and AuthPuppy. I believe any existing hotspot solution will be suported.
 
-The video plays automatically on all modern pc browsers but users with mobile devices will have to use the play icon located on the video.
+The video plays automatically on all modern pc browsers but users with mobile devices will have to use the play icon located on the video frame.
 
 The video player is implemented using [video.js](http://www.videojs.com)
 
@@ -24,7 +24,7 @@ INSTALLING
 Just copy the files to any folder on your web server. Now navigate to the script like this `webserver.com/[folder]`
 (where `webserver.com` is the name of your webserver, can be `localhost` for local users, and `[folder]` is the folder where you extracted the script to).
 
-Replace `http://example.com/images/test1.mp4` with the link of any .mp4 video of your choice. Do the same for the other links
+Replace `http://example.com/images/test1.mp4` in `index.php` with the link of any .mp4 video of your choice. Do the same for the other 3 links
 
 
 ---
