@@ -16,22 +16,19 @@ $video = $video_array[0];
 <head>
   
     <!-- Basic -->
-	<title>ATRAMS Hotspot</title>
+	<title>Free Hotspot</title>
     
     <!-- Define Charset -->
 	<meta charset="utf-8">
     
-    <!-- Responsive MetaTag -->
+    <!-- MetaTag -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!-- Page Description and Author -->
-    <meta name="description" content="ATRAMS Hotspot">
+    <meta name="description" content="Free Hotspot">
     <meta name="author" content="Kofi Kwarteng">
     
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.png">
 
-    
     <!-- CSS Styles -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
@@ -39,8 +36,8 @@ $video = $video_array[0];
     <link rel="stylesheet" type="text/css" href="css/icons.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/colors/chrome-orange.css" media="screen">
-	<link href="css/video-js.css" rel="stylesheet" type="text/css">
-	<link href="css/video.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/video-js.css" type="text/css">
+	<link rel="stylesheet" href="css/video.css" type="text/css">
      
 
 	<!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -61,7 +58,7 @@ $video = $video_array[0];
             <div class="col-md-6 col-md-offset-3">
                 <!-- Title -->
                 <div class="section-title text-center">
-                    <h2>ATRAMS Hotspot</h2>
+                    <h2>Free Hotspot</h2>
 						<div class="title-icon"><span><i class="icon-video"></i></span></div>
                     <p class="lead">Free browsing <span>Starts</span> in 60 seconds.</p>
                 </div>
@@ -102,7 +99,7 @@ $video = $video_array[0];
               
                 
                 <!-- Copyright -->
-                <div class="copyright">All rights reserved. Copyright © 2015 <a class="accent-color" href="http://atrams.co" target="_blank">ATRAMS Tracking LTD</a></div>
+                <div class="copyright">All rights reserved. Copyright © 2015 <a class="accent-color" href="http://artheontech.com" target="_blank">ARTHEON Technologies LLC.</a></div>
                 <!-- Social Icons -->
                 <div class="social-icons">
                 	<ul>
