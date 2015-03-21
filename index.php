@@ -1,9 +1,9 @@
  <?php
 $video_array = array
-('http://artheontech.com/images/test1.mp4',
-'http://artheontech.com/images/test2.mp4',
-'http://artheontech.com/images/test3.mp4',
-'http://artheontech.com/images/test4.mp4');
+('http://example.com/images/test1.mp4',
+'http://example.com/images/test2.mp4',
+'http://example.com/images/test3.mp4',
+'http://example.com/images/test4.mp4');
 
 shuffle( $video_array );
 $video = $video_array[0];
