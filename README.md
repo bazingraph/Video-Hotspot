@@ -22,7 +22,7 @@ INSTALLING
 ==========
 
 Just copy the files to any folder on your web server. Now navigate to the script like this `webserver.com/[folder]`
-(where `webserver.com` is the name of your webserver, can be localhost for local users, and `[folder]` is the folder where you extracted the script to).
+(where `webserver.com` is the name of your webserver, can be `localhost` for local users, and `[folder]` is the folder where you extracted the script to).
 
 Replace `http://example.com/images/test1.mp4` with the link of any .mp4 video of your choice. Do the same for the other links
 
