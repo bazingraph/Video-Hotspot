@@ -2,7 +2,6 @@
     $url= array('test1.mp4', 'test2.mp4', 'test3.mp4', 'test4.mp4', 'test5.mp4', 'test6.mp4', 'test7.mp4');
     $video = $url[array_rand($url)];
   ?>
-
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
@@ -57,16 +56,20 @@
     <link href="css/video.css" rel="stylesheet" type="text/css">
 
 
+
+
 <!-- Main JS  -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/video.js"></script>
-<script type="text/javascript" src="js/cookie.js"></script>
 
 
 
+
+
+    
 
 	<!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -89,8 +92,8 @@
                     
                     <h2>Video Hotspot</h2>
                     <div class="title-icon"><span><i class="icon-video"></i></span></div>
-                    <p class="lead">Watch this Video and Continue to Browse.</p>
-                    
+                    <p class="lead">Free browsing <span class="re-tooltip accent-color" title="Nice Tooltip" data-placement="bottom">Starts</span> in 60 seconds.</p>
+                    <p class="lead">"If video doesn't play automatically, click on the play button to start the video"</p>
                 </div>
                 <!-- Space -->
                 <div class="hr" style="margin-bottom:50px;"></div>
@@ -103,7 +106,7 @@
             <div class="col-md-6 col-md-offset-3">
 <div class="video_holder">
                <video id="video1" class="video-js vjs-default-skin vjs-big-play-centered video-js-fullscreen" width="600" height="324" controls preload="none" autoplay preload="none" data-setup='{ "example_option": true, "width": "auto", "height": "auto", "techOrder": ["html5","flash"] }'>
-    <source src="http://hotspot.achisco.com/images/<?php echo $video; ?>" type='video/mp4' />
+    <source src="http://example.com/videos/<?php echo $video; ?>" type='video/mp4' />
   </video> 
                
                </div> 
@@ -150,6 +153,8 @@
 </div>
 <!-- End Footer -->
 
-<script type="text/javascript" src="js/hotspot.js"></script>
+<script type="text/javascript" src="js/splash.js"></script>
+   
+
 </body>
 </html>
