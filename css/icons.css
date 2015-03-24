@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'font';
-	src:url('../fonts/font978.eot?-8ra43i');
-	src:url('../fonts/font41d.eot?#iefix-8ra43i') format('embedded-opentype'),
-		url('../fonts/font978.woff?-8ra43i') format('woff'),
-		url('../fonts/font978.ttf?-8ra43i') format('truetype'),
-		url('../fonts/font978.svg?-8ra43i#relway') format('svg');
+	src:url('font/fontd978.eot?-8ra43i');
+	src:url('font/fontd41d.eot?#iefix-8ra43i') format('embedded-opentype'),
+		url('font/fontd978.woff?-8ra43i') format('woff'),
+		url('font/fontd978.ttf?-8ra43i') format('truetype'),
+		url('font/fontd978.svg?-8ra43i#font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

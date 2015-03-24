@@ -1,6 +1,6 @@
 go_to_splash = "http://example.com/splash.php";
  
-// number of days cookie is valid, in this case, 1 day
+// number of days cookie lives for - in this case, 1 day
 num_days = 1;
 function ged(noDays){
     var today = new Date();
