@@ -23,14 +23,16 @@ REQUIREMENTS
 INSTALLING
 ==========
 
-Just copy the files to any folder on your web server. Now navigate to the script like this `webserver.com/[folder]`
-(where `webserver.com` is the name of your webserver, can be `localhost` for local users, and `[folder]` is the folder where you extracted the script to).
+Just copy the files anywhere on your web server. It can be any folder of your choice or even the root.
 
 Replace `test1.mp4` in both the `index.php` and the `splash.php` (Where the `splash.php` is the page with the "Accept Terms and Conditions") with the name of any .mp4 video of your choice. Do the same for the other 6 .mp4 video files. You can remove some videos or add more depending on your needs. You can find more about the random video feature in the Usage section of this document.
 
 In the video source section, replace `http://example.com/videos/` in both the `index.php` and the `splash.php` with the path of the videos of your choice and remember to include the `/` at the end of the path.
 
 In the `js` folder, locate `cookie.js` and replace `http://example.com/splash.php` with the url of the splash page, based on where the script is located (Following the example above, the link will be `webserver.com/[folder]/splash.php`). This page will be displayed to first time users only.
+
+Now navigate to the script like this `webserver.com/[folder]`
+(where `webserver.com` is the host name of your webserver, can be `localhost` for local users, and `[folder]` is the folder where you extracted the script to).
 
 
 
