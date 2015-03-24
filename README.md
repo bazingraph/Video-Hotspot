@@ -23,7 +23,7 @@ REQUIREMENTS
 INSTALLING
 ==========
 
-Just copy the files anywhere on your web server. It can be any folder of your choice or even the root.
+Just copy the files anywhere on your web server. It can be placed in any folder of your choice or even the root.
 
 Replace `test1.mp4` in both the `index.php` and the `splash.php` (Where the `splash.php` is the page with the "Accept Terms and Conditions") with the name of any .mp4 video of your choice. Do the same for the other 6 .mp4 video files. You can remove some videos or add more depending on your needs. You can find more about the random video feature in the Usage section of this document.
 
