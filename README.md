@@ -10,7 +10,7 @@ This hotspot solution is implemented using wifiDog on open-wrt and AuthPuppy. I 
 
 The video plays automatically on all modern pc browsers but users with mobile devices will have to use the play icon located on the video frame.
 
-It also includes a cookie feature that redirects first time users to a Splash Page (Terms and Conditions Page). This is useful when you want your users see the "Accept Terms and Conditions" page just once in a certain period. (A similar splash concept introduced by [Forbes.com](http://forbes.com).
+It also includes a cookie feature that redirects first time users to a Splash Page (Terms and Conditions Page). This is useful when you want your users see the "Accept Terms and Conditions" page just once in for a defined period of time. (A similar splash concept is used by [Forbes.com](http://forbes.com)).
 
 The video player is implemented using [video.js](http://www.videojs.com)
 
@@ -26,11 +26,11 @@ INSTALLING
 Just copy the files to any folder on your web server. Now navigate to the script like this `webserver.com/[folder]`
 (where `webserver.com` is the name of your webserver, can be `localhost` for local users, and `[folder]` is the folder where you extracted the script to).
 
-Replace `test1.mp4` in both the `index.php` and the `splash.php` (Where the `splash.php` is the page with the "Accept Terms and Conditions") with the link of any .mp4 video of your choice. Do the same for the other 6 links. You can remove some links or add more depending on your needs. More about the random video feature is explained in details in the Usage section of this document.
+Replace `test1.mp4` in both the `index.php` and the `splash.php` (Where the `splash.php` is the page with the "Accept Terms and Conditions") with the name of any .mp4 video of your choice. Do the same for the other 6 .mp4 video files. You can remove some videos or add more depending on your needs. You can find more about the random video feature in the Usage section of this document.
 
 In the video source section, replace `http://example.com/videos/` in both the `index.php` and the `splash.php` with the path of the videos of your choice and remember to include the `/` at the end of the path.
 
-In the `js` folder, locate `cookie.js` and replace `http://example.com/splash.php` with the url of the splash page, based on where the script is located (Following the example above, the link will be `webserver.com/[folder]/splash.php`).
+In the `js` folder, locate `cookie.js` and replace `http://example.com/splash.php` with the url of the splash page, based on where the script is located (Following the example above, the link will be `webserver.com/[folder]/splash.php`). This page will be displayed to first time users only.
 
 
 
@@ -43,7 +43,8 @@ USAGE
 
 Videos are randomly selected using the php `array_rand` function, which according to research is a better alternative to the `shuffle` function. The video urls are stored in the array, `$url`, which is then shuffled and stored in `$video`.
 
-The example in the file has an array of 7 videos. You can easily add or remove video urls to extend or decrease the number of videos in the array.
+
+Also the line  `<source src="http://example.com/videos/<?php echo $video; ?>" type='video/mp4' />` found in both the `index.php` and the `splash.php` contains the URL to the path of the videos (This was created with the concept that all the videos are located in the same Folder). Replace the `http://example.com/videos/` URL with the URL of the folder where your videos are located.
 
 * Accept Terms Page
 
